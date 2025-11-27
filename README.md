@@ -1,9 +1,6 @@
-# metadata-starter-kit
-Template for project metadata
-
 # Metadata Starter Kit
 
-This repository contains a lightweight, human-friendly Starter Kit for project metadata in the lab.  
+This repository contains a lightweight template for project metadata.
 It includes:
 - reusable YAML templates  
 - matching human-readable descriptors  
