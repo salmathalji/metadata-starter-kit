@@ -33,6 +33,7 @@ metadata-starter-kit/
 1. Copy templates into your project
 
 2. Place them in a folder such as:
+```text
 my-project/
 └── metadata/
     ├── project.yaml
@@ -40,10 +41,10 @@ my-project/
     ├── device.yaml
     ├── participant.yaml
     └── dataset.yaml
+```
+4. Fill in fields in plain language
 
-3. Fill in fields in plain language
-
-4. Refer to the descriptor files for help
+5. Refer to the descriptor files for help
    Every template includes a link at the top to its descriptor.
 
 6. Adapt templates freely
