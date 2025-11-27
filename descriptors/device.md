@@ -1,4 +1,3 @@
-```markdown
 # Device-level metadata descriptor
 
 Explains the list of devices in `device.yaml`.
