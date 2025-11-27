@@ -1,0 +1,56 @@
+# Template: Dataset-level metadata
+# Descriptor: https://github.com/tscnlab/metadata-starter-kit/descriptors/dataset.md
+
+dataset_id: "DATASET-001"
+dataset_name: "Dataset Name"
+study_id: "PROJECT-001-STUDY"
+project_id: "PROJECT-001"
+dataset_description: >
+  Overview of dataset contents.
+version: "1.0.0"
+release_date: "2025-11-20"
+
+associated_publications:
+  - doi: "10.1234/example"
+    citation: "Lastname et al. 2025"
+
+data_access:
+  access_level: "restricted"
+  access_details: >
+    Describe the access rules.
+
+file_structure:
+  base_path: "data/"
+  description: >
+    Brief directory structure overview.
+  files:
+    - path: "data/raw/light/"
+      description: "Raw device files"
+      file_pattern: "*.csv"
+      modality: "light"
+      device_id: "DEV-001"
+
+tabular_variables:
+  - table_name: "example_table"
+    file_pattern: "data/processed/*.csv"
+    description: "Example table."
+    key_columns:
+      - "participant_id"
+      - "timestamp"
+    variables:
+      - name: "participant_id"
+        type: "string"
+        required: true
+        description: "Matches participant.yaml"
+      - name: "timestamp"
+        type: "datetime"
+        format: "YYYY-MM-DD HH:MM:SS"
+        required: true
+        description: "Local timestamp"
+
+qc_overview:
+  applied_qc: false
+  description: null
+  qc_documentation: null
+
+notes: null
