@@ -21,7 +21,6 @@ Links back to study metadata.
 - `female`  
 - `male`  
 - `intersex`  
-- `another`  
 - `prefer_not_to_say`  
 - `unknown`  
 
