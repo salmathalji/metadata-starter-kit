@@ -59,12 +59,5 @@ Each table entry defines:
 
 ---
 
-## Quality control
-
-### `qc_overview`
-Indicate whether QC was applied and point to documentation.
-
----
-
 ## Notes
 Use this for caveats or additional context.
